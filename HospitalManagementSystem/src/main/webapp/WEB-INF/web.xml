@@ -1,0 +1,121 @@
+<!DOCTYPE web-app PUBLIC 
+    "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" 
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+    <display-name>Archetype Created Web Application</display-name>
+
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>servlets.LoginServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>adminservlet</servlet-name>
+        <display-name>adminservlet</display-name>
+        <servlet-class>servlets.adminservlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>RegisterServlet</servlet-name>
+        <display-name>RegisterServlet</display-name>
+        <servlet-class>servlets.RegisterServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>adminLogout</servlet-name>
+        <display-name>adminLogout</display-name>
+        <servlet-class>servlets.adminLogout</servlet-class>
+    </servlet>
+    <servlet>
+    	<servlet-name>UserLogout</servlet-name>
+    	<display-name>UserLogout</display-name>
+    	<description></description>
+    	<servlet-class>servlets.UserLogout</servlet-class>
+    </servlet>
+    <servlet>
+    	<servlet-name>AddSpecialist</servlet-name>
+    	<display-name>AddSpecialist</display-name>
+    	<description></description>
+    	<servlet-class>servlets.AddSpecialist</servlet-class>
+    </servlet>
+    <servlet>
+    	<servlet-name>DoctorServlet</servlet-name>
+    	<display-name>DoctorServlet</display-name>
+    	<description></description>
+    	<servlet-class>servlets.DoctorServlet</servlet-class>
+    </servlet>
+    <servlet>
+    	<servlet-name>UpdateDoctor</servlet-name>
+    	<display-name>UpdateDoctor</display-name>
+    	<description></description>
+    	<servlet-class>servlets.UpdateDoctor</servlet-class>
+    </servlet>
+    <servlet>
+    	<servlet-name>DeleteDoctor</servlet-name>
+    	<display-name>DeleteDoctor</display-name>
+    	<description></description>
+    	<servlet-class>servlets.DeleteDoctor</servlet-class>
+    </servlet>
+    <servlet>
+    	<servlet-name>DoctorLogin</servlet-name>
+    	<display-name>DoctorLogin</display-name>
+    	<description></description>
+    	<servlet-class>servlets.DoctorLogin</servlet-class>
+    </servlet>
+    <servlet>
+    	<servlet-name>DoctorLogout</servlet-name>
+    	<display-name>DoctorLogout</display-name>
+    	<description></description>
+    	<servlet-class>servlets.DoctorLogout</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>adminservlet</servlet-name>
+        <url-pattern>/adminservlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>RegisterServlet</servlet-name>
+        <url-pattern>/RegisterServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>adminLogout</servlet-name>
+        <url-pattern>/adminLogout</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+    	<servlet-name>UserLogout</servlet-name>
+    	<url-pattern>/UserLogout</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+    	<servlet-name>AddSpecialist</servlet-name>
+    	<url-pattern>/AddSpecialist</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+    	<servlet-name>DoctorServlet</servlet-name>
+    	<url-pattern>/DoctorServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+    	<servlet-name>UpdateDoctor</servlet-name>
+    	<url-pattern>/UpdateDoctor</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+    	<servlet-name>DeleteDoctor</servlet-name>
+    	<url-pattern>/DeleteDoctor</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+    	<servlet-name>DoctorLogin</servlet-name>
+    	<url-pattern>/DoctorLogin</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+    	<servlet-name>DoctorLogout</servlet-name>
+    	<url-pattern>/DoctorLogout</url-pattern>
+    </servlet-mapping>
+
+</web-app>
